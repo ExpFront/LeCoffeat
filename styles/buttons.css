@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: #30788b;
+  padding: 25px 80px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+	background-color: #065165;
+	transition: all .6s;
+}
