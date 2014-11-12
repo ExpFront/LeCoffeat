@@ -1,0 +1,9 @@
+{
+  "name": "lecoffeat",
+  "version": "0.0.1",
+  "authors": [
+    "ExpFront"
+  ],
+  "main": "index.html",
+  "license": "MIT"
+}
