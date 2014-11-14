@@ -1,5 +1,5 @@
 .h2-intro-1 {
-	opacity: .5;
+	opacity: .7;
 	margin-bottom: -25px;
 	font-family: "Times", sans-serif;
 	font-weight: 700;
@@ -15,8 +15,9 @@
 	margin-bottom: 20px;
 }
 
-.h3-1-features {
+.h4-1-features, .h4-about {
     font-family: "Open Sans", sans-serif;
 	font-style: latin;
-	font-weight: 400;
+	font-weight: 700;
+	margin: 20px 0;
 }

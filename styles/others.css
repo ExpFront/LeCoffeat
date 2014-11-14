@@ -1,3 +1,28 @@
-.icon-in-features {
-	border: 1px solid black;
+.icon-in-features-1, .icon-in-features-2, .icon-in-features-3 {
+	border: 2px solid black;
+	display: inline-block;
+	padding: 35px;
+	color: #30788b;
+}
+
+.icon-in-features-2 {
+	padding: 35px 43px;
+}
+
+.icon-in-features-3 {
+	padding: 35px 37px;
+}
+
+.icon-in-features-1:hover, .icon-in-features-2:hover, .icon-in-features-3:hover {
+	background-color: #30788b;
+	color: white;
+	transition: all .5s;
+}
+
+.block-iphone {
+	height: 550px;
+	background-image: url('../images/backgrounds/iphone.png');
+	background-size: 70%;
+	background-repeat: no-repeat;
+
 }
