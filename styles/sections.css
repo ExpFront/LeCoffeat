@@ -2,10 +2,14 @@
 	background-image: url('../images/backgrounds/section-intro-background.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    width:100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  width:100%;
 	min-height: 800px;
 	padding-top: 20px;
+}
+
+.section-features {
+	padding-top: 100px;
 }

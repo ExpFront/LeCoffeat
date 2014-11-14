@@ -1,12 +1,22 @@
-.h1-intro-1 {
+.h2-intro-1 {
 	opacity: .5;
 	margin-bottom: -25px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Times", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 36px; 
 }
 
 .h1-intro-2 {
 	font-family: "Open Sans", sans-serif;
+	font-style: latin;
 	font-weight: 700;
 	font-size: 100px;
 	margin-bottom: 20px;
+}
+
+.h3-1-features {
+    font-family: "Open Sans", sans-serif;
+	font-style: latin;
+	font-weight: 400;
 }
