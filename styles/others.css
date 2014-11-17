@@ -20,9 +20,9 @@
 }
 
 .block-iphone {
-	height: 550px;
+	height: 650px;
 	background-image: url('../images/backgrounds/iphone.png');
-	background-size: 70%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 
 }

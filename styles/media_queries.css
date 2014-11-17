@@ -1,25 +1,44 @@
 @media (min-width: 1200px) {
+
 	.section-intro {
-		height: 900px;
+      height: 900px;
+	}
+
+	.intro {
+	  padding-top: 15%;
 	}
 }
 
 @media (min-width: 992px) {
+
 	.section-intro {
-		height: 700px;
-		font-size: 80%;
+	  min-height: 800px;
+	}
+
+	.intro {
+	  padding-top: 16%;
 	}
 }
 
 @media (min-width: 768px) {
+
 	.section-intro {
-		height: 600px;
-		font-size: 50%;
+		min-height: 600px;
 	}
+
+  .intro {
+    padding-top: 10%;
+  }
 }
 @media (max-width: 768px) {
-  .section-intro {
-  	height: 500px;
 
+  .section-intro {
+  	min-height: 400px;
+  	font-size: 20px;
+  }
+
+  .logo {
+  	padding-top: 10%;
+  	width: 130px;
   }
 }

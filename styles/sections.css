@@ -6,7 +6,6 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
-    height: 800px;
     width: 100%; 
 	padding-top: 20px;
 }
@@ -17,5 +16,4 @@
 
 .section-about {
 	background-color: #f7f7f7;
-	padding-top: 100px;
 }
