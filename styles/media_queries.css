@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+	.section-intro {
+		height: 900px;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-intro {
+		height: 700px;
+		font-size: 80%;
+	}
+}
+
+@media (min-width: 768px) {
+	.section-intro {
+		height: 600px;
+		font-size: 50%;
+	}
+}
+@media (max-width: 768px) {
+  .section-intro {
+  	height: 500px;
+
+  }
+}
