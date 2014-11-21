@@ -1,14 +1,12 @@
 .section-intro {
-    width: 100%;
 	background-image: url('../images/backgrounds/section-intro-background.png');
 	background-repeat: no-repeat;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: 45% 0%;
 	padding-top: 20px;
-
 }
 
 .section-features {

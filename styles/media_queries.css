@@ -1,20 +1,36 @@
 @media (max-width: 767px) {
-  .section-intro {
-  	height: 450px;
-  	background-size: 100% 100%;
+  .h2-intro-1 {
+    font-size: 24px;
+  }
+  .h1-intro-2 {
+    font-size: 60px;
+  }
+  .intro {
+    margin-left: 12%;
+    margin-bottom: 5%;
+  }
+  .btn-primary {
+    font-size: 15px;
+  }
+  img {
+    width: 85%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
+  .h2-intro-1 {
+    font-size: 32px;
+  }
+  .h1-intro-2 {
+    font-size: 70px;
+  }
   .section-intro {
-    height: 550px;
-    background-size: 100% 100%;
+    min-height: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-	.section-intro {
-		height: 600px;
-		background-size: 100% 100%;
-	}
+  .section-intro {
+    min-height: 800px;
+  }
 }
