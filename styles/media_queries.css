@@ -6,7 +6,6 @@
     font-size: 60px;
   }
   .intro {
-    margin-left: 12%;
     margin-bottom: 5%;
   }
   .btn-primary {
@@ -32,5 +31,8 @@
 @media (min-width: 1000px) {
   .section-intro {
     min-height: 800px;
+  }
+  .intro {
+    margin-top: 10%;
   }
 }
