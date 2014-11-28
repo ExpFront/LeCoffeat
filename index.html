@@ -17,28 +17,39 @@
   <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/span.css">
   <link rel="stylesheet" href="styles/paragraphs.css">
-  <link rel="stylesheet" href="styles/appbuttons.css">
+  <link rel="stylesheet" href="styles/appbuttons.css"> 
+  <link rel="stylesheet" href="styles/navbars.css">
   <link rel="stylesheet" href="styles/media_queries.css">
-
 </head>
 <body>
 	<section class="section-intro">
 		<div class="container">
-			<div class="row">
+			<div class="row row-intro">
 				<div class="col-xs-4">
 					<img src="images/logo.png" class="logo">
 				</div>
-				<div class="col-xs-2"></div>
+				<div class="col-sm-4 col-sm-offset-4 hidden-xs">
+				  <ul>
+				  	<li><a href="">LOG IN</a></li>
+				  	<li><a href="">SIGN UP</a></li>
+				  	<li class="li-last"><a href=""><i class="fa fa-bars"></i></a></li>
+				  </ul>
+				</div>
+				<div class="col-xs-2 col-xs-offset-5 visible-xs">
+				  <ul>
+				  	<li class="li-last"><a href=""><i class="fa fa-bars"></i></a></li>
+				  </ul>
+				</div>
 			</div>
 			<div class="col-xs-12 text-center intro">
 				<h2 class="h2-intro-1">Find your favorite</h2>
 				<h1 class="h1-intro-2">Coffee</h1>
-				<a href="#section-1"><button type="button" class="btn btn-primary">GET STARTED</button></a>
+			  <button type="button" class="btn btn-primary">GET STARTED</button>
 			</div>
 		</div>
 	</section>
 	<!--/.section-intro-->
-	<section class="section-features" id="section-1">
+	<section class="section-features">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 text-center">
@@ -93,5 +104,7 @@
   		</div>
   	</div>
   </section>
+  <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 </body>
 </html>

@@ -14,9 +14,20 @@
   img {
     width: 85%;
   }
+
+  li {
+    margin-right: 5px;
+  }
+
+  li a {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
+  .section-intro {
+    height: 500px;
+  }
   .h2-intro-1 {
     font-size: 32px;
   }
@@ -25,6 +36,12 @@
   }
   .section-intro {
     min-height: 400px;
+  }
+  .intro {
+    margin-left: 3%;
+  }
+  li {
+    margin-right: 15px;
   }
 }
 
