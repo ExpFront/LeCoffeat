@@ -37,7 +37,7 @@
 				</div>
 				<div class="col-xs-4 col-xs-offset-4 visible-xs">
 				  <div class="dropdown">
-					  <a id="dLabel" class="a-menu" data-target="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+					  <a id="dLabel" data-target="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
 					    <i class="fa fa-bars"></i>
 					  </a>
 					  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
@@ -115,5 +115,8 @@
 
   <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+  <script>
+    $('.dropdown-toggle').dropdown()
+  </script>
 </body>
 </html>
