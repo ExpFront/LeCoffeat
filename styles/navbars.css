@@ -24,6 +24,10 @@ a:hover {
 	opacity: .8;
 }
 
+.dropdown a {
+	display: inline;
+}
+
 .li-last {
 	margin-right: 0px;
 }
