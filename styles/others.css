@@ -28,6 +28,10 @@
 	min-width: 100px;
 }
 
+.dropdown-toggle {
+	margin-right: 20px;
+}
+
 blockquote {
 	border: none;
 }
@@ -60,4 +64,9 @@ blockquote {
 .col-area {
 	max-height: 450px;
 	overflow-y: scroll;
+}
+
+.img-carousel-1 {
+	width: 150px;
+	margin-bottom: 20px;
 }

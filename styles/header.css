@@ -31,12 +31,19 @@
 	margin-bottom: 100px;
 }
 
-.h3-area-1 {
+.h3-area-1, .h3-area-2 {
+	margin-top: 40px;
 	font-size: 24px;
 	font-weight: lighter;
 	color: #2497b6;
 }
 
+.h3-area-2 {
+	font-weight: bold;
+}
+
 .h5-area {
+	color: #acb4bf;
+	margin-bottom: 28px;
 	margin-left: 45px;
 }

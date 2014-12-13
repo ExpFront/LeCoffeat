@@ -19,8 +19,23 @@
 }
 
 .section-carousel {
+
 	background-image: url('../images/backgrounds/section-background.png');
-	background-size: 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-position: 45% 50%;
 	background-repeat: no-repeat;
-	padding: 160px 0;
+	padding: 80px 0;
+}
+
+.section-around {
+	padding: 70px 0 220px 0;
+}
+
+.section-footer {
+	padding: 40px 0;
+	border-top: 1px solid #e2e2e2;
+	background-color: #f7f7f7;
 }
