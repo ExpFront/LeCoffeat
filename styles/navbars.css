@@ -10,7 +10,7 @@ li {
   padding: 2px;
 }
 
-li a {
+a {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -18,7 +18,7 @@ li a {
 	display: block;
 }
 
-li a:hover {
+a:hover {
 	color: white;
 	text-decoration: none;
 	opacity: .8;

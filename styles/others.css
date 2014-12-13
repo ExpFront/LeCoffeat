@@ -19,7 +19,11 @@
 	transition: all .5s;
 }
 
-img {
+.iphone-img {
 	width: 100%;
 	height: auto;
+}
+
+.dropdown-menu {
+	min-width: 100px;
 }

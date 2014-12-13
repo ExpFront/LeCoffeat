@@ -28,13 +28,24 @@
 				<div class="col-xs-4">
 					<img src="images/logo.png" class="logo">
 				</div>
-				<div class="col-xs-4 col-xs-offset-4">
+				<div class="col-xs-4 col-xs-offset-4 hidden-xs">
 				  <ul>
 				  	<li><a href="">LOG IN</a></li>
 				  	<li><a href="">SIGN UP</a></li>
 				  	<li class="li-last"><a href=""><i class="fa fa-bars"></i></a></li>
 				  </ul>
 				</div>
+				<div class="col-xs-4 col-xs-offset-4 visible-xs">
+				  <div class="dropdown">
+					  <a id="dLabel" class="a-menu" data-target="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+					    <i class="fa fa-bars"></i>
+					  </a>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+					    <li><a href="">LOG IN</a></li>
+					    <li><a href="">SIGN UP</a></li>
+					  </ul>
+				  </div>
+			  </div>
 			</div>
 			<div class="col-xs-12 text-center intro">
 				<h2 class="h2-intro-1">Find your favorite</h2>
@@ -44,6 +55,7 @@
 		</div>
 	</section>
 	<!--/.section-intro-->
+
 	<section class="section-features">
 		<div class="container">
 			<div class="row">
@@ -84,7 +96,8 @@
 		</div>
 	</section>
 	<!--/.section-features-->
-  <section class="section-about" id="sec">
+
+  <section class="section-about">
   	<div class="container">
   		<div class="row">
   			<div class="col-xs-12 col-sm-6">
@@ -94,11 +107,12 @@
   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, doloribus eius. Temporibus accusamus, porro sed voluptatibus error, tempora, esse cupiditate quod totam libero officiis quis aliquam. Voluptatem dolorum, atque porro.</p>
   			</div>
   			<div class="col-xs-12 col-sm-6 text-center">
-  				<img src="images/backgrounds/iphone.png" alt="iphone">
+  				<img class="iphone-image" src="images/backgrounds/iphone.png" alt="iphone">
   			</div>
   		</div>
   	</div>
   </section>
+
   <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 </body>
