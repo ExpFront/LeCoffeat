@@ -54,15 +54,11 @@
   }
 }
 
-@media (max-width: 767px) {
-  .block-iphone {
-    height: 800px;
-  }
-}
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   .block-iphone {
-    height: 505px;
+    height: 495px;
   }
 }
 

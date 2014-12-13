@@ -19,10 +19,7 @@
 	transition: all .5s;
 }
 
-.block-iphone {
-	margin-top: 30px;
-	height: 765px;
-	background-image: url('../images/backgrounds/iphone.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
+img {
+	width: 100%;
+	height: auto;
 }
