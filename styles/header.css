@@ -16,8 +16,7 @@
 }
 
 .h4-1-features, .h4-about {
-    font-family: "Open Sans", sans-serif;
-	font-style: latin;
+  font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	margin: 20px 0;
 }
@@ -27,19 +26,20 @@
 }
 
 .h2-around {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
 	font-size: 18px;
 	margin-bottom: 100px;
 }
 
+.h3-area-1 {
+  font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
 .h3-area-1, .h3-area-2 {
 	margin-top: 40px;
 	font-size: 24px;
-	font-weight: lighter;
 	color: #2497b6;
-}
-
-.h3-area-2 {
-	font-weight: bold;
 }
 
 .h5-area {

@@ -70,3 +70,8 @@ blockquote {
 	width: 150px;
 	margin-bottom: 20px;
 }
+
+.carousel-indicators li{
+	background-color: #3f4d51;
+	border: none;
+}
