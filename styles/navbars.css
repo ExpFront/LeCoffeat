@@ -10,6 +10,10 @@ li {
   padding: 2px;
 }
 
+.li-dropdown {
+  width: 100%;
+}
+
 a {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
